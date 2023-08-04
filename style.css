@@ -160,3 +160,27 @@ svg text {
   background-color: transparent;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  .content {
+    margin: auto;
+    width: 90%;
+    font-size: 18px;
+    padding: 8px;
+  }
+  .content .logo-container .slogan {
+    font-size: 12px;
+  }
+  .content .desc {
+    font-size: 18px;
+    width: 94%;
+  }
+  .cog {
+    width: 120px;
+    right: 30px;
+    top: -60px;
+  }
+  svg text {
+    font-size: 46px;
+  }
+}
